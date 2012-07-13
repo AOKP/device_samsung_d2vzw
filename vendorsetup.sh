@@ -1,2 +1,3 @@
-add_lunch_combo cm_d2vzw-eng
+# We build from vendor
+#add_lunch_combo cm_d2vzw-eng
 
