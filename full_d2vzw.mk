@@ -27,7 +27,7 @@ PRODUCT_PACKAGES := \
 
 # KEXEC-specific options
 ifeq ($(USE_KEXEC),1)
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
     kexec \
     kdump \
     kexec-boot.zip
