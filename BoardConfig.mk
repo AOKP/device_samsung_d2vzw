@@ -48,4 +48,6 @@ TARGET_PROVIDES_RELEASETOOLS := true
 TARGET_CUSTOM_RELEASETOOL := vendor/d2vzw/tools/squisher
 ifeq ($(USE_KEXEC),1)
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/d2vzw/kexec-releasetools/ota_from_target_files
+else
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/d2vzw/tools/ota_from_target_files
 endif
