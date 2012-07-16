@@ -47,5 +47,5 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PROVIDES_RELEASETOOLS := true
 TARGET_CUSTOM_RELEASETOOL := vendor/d2vzw/tools/squisher
 ifeq ($(USE_KEXEC),1)
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/d2vzw/releasetools/ota_from_target_files
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/d2vzw/kexec-releasetools/ota_from_target_files
 endif
