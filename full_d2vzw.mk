@@ -22,7 +22,7 @@
 #
  
 PRODUCT_PACKAGES := \
-   Stk \ 
+   Stk \
    Torch
 
 # KEXEC-specific options
