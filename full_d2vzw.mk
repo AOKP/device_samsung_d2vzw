@@ -26,7 +26,7 @@ PRODUCT_PACKAGES := \
    Torch
 
 # KEXEC-specific options
-ifeq ($(USE_KEXEC),1)
+ifdef USE_KEXEC
 PRODUCT_PACKAGES += \
     kexec \
     kexec-boot.zip \
