@@ -44,9 +44,13 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1572864000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 28651290624
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# ReleaseTools
 TARGET_PROVIDES_RELEASETOOLS := true
 TARGET_CUSTOM_RELEASETOOL := vendor/d2vzw/tools/squisher
-ifeq ($(USE_KEXEC),1)
+
+# Kexec
+USE_KEXEC := true
+ifdef USE_KEXEC
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/d2vzw/kexec-releasetools/ota_from_target_files
 else
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/d2vzw/tools/ota_from_target_files
