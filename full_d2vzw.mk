@@ -25,20 +25,18 @@ PRODUCT_PACKAGES := \
    Stk \
    Torch
 
-# KEXEC-specific options
-ifdef USE_KEXEC
 PRODUCT_PACKAGES += \
     kexec \
     kexec-boot.zip \
     hijack.sh
-endif
+
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from d2vzw device
 $(call inherit-product, device/samsung/d2vzw/device.mk)
 # Inherit Jellybean gapp goodness
-$(call inherit-product, vendor/d2vzw/products/common_gapps.mk)
+$(call inherit-product, vendor/d2vzw/products/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_d2vzw
