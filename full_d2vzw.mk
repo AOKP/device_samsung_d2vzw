@@ -21,8 +21,7 @@
 # lines, full and maguro, hence its name.
 #
  
-# Torch
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES := \
    Stk \ 
    Torch
 
