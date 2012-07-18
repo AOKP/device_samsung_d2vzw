@@ -13,7 +13,6 @@
 # limitations under the License.
 
 ifeq ($(TARGET_DEVICE),d2vzw)
-ifeq ($(USE_KEXEC),1)
 
 LOCAL_PATH := $(call my-dir)
 
@@ -25,5 +24,4 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
-endif # USE_KEXEC = 1
 endif # TARGET_DEVICE = d2vzw
