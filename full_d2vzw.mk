@@ -26,6 +26,10 @@ PRODUCT_PACKAGES := \
    Torch
 
 
+PRODUCT_COPY_FILES := \
+    device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
+
+# KEXEC-specific options
 PRODUCT_PACKAGES += \
     kexec \
     kexec-boot.zip \
