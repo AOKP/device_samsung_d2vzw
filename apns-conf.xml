@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
 <apns version="7">
@@ -22,7 +21,6 @@
         mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
     />
-
     <apn carrier="Verizon Internet"
         mcc="310"
         mnc="004"
@@ -56,7 +54,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
-
     <!-- Modify Apn database for VZW LTE support -->
     <apn carrier="LTE - Verizon Internet"
         mcc="311"
@@ -251,7 +248,7 @@
         roaming_protocol="IPV4V6"
         bearer="14"
     />
-   <apn carrier="LTE - VZW Test Internet"
+    <apn carrier="LTE - VZW Test Internet"
         mcc="246"
         mnc="081"
         apn="VZWINTERNET"
@@ -288,7 +285,6 @@
         roaming_protocol="IPV4V6"
         bearer="14"
     />
-    <!-- END modify Apn database for VZW LTE support -->
     <!-- Modify Apn database for VZW EHRPD support -->
     <apn carrier="EHRPD - Verizon Internet"
         mcc="311"
@@ -483,7 +479,7 @@
         roaming_protocol="IPV4V6"
         bearer="13"
     />
-   <apn carrier="EHRPD - VZW Test Internet"
+    <apn carrier="EHRPD - VZW Test Internet"
         mcc="246"
         mnc="081"
         apn="VZWINTERNET"
@@ -520,6 +516,4 @@
         roaming_protocol="IPV4V6"
         bearer="13"
     />
-    <!-- END modify Apn database for VZW EHRPD support -->
-
 </apns>
