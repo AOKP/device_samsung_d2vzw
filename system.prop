@@ -92,11 +92,6 @@ persist.radio.add_power_save=1
 # System propverty snapshot disable
 persist.radio.snapshot_disabled=1
 
-# system props for dalvik heapsize
-dalvik.vm.heapsize=256m
-dalvik.vm.heapstartsize=8m
-dalvik.vm.heapgrowthlimit=64m
-
 com.qc.hardware=true
 com.qc.hdmi_out=true
 ro.hdmi.enable=true
