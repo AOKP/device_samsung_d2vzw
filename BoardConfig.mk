@@ -47,3 +47,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Kexec
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/d2vzw/kexec-releasetools/ota_from_target_files
 
+# Boot Animation
+TARGET_BOOTANIMATION_USE_RGB565 := true
+
