@@ -101,4 +101,4 @@ ro.cwm.enable_key_repeat=true
 # Surface Dithering
 # 0=Disable, 1=fix color banding, 
 # 2=fix color banding+blur effect
-persist.sys.use_dithering=1
+persist.sys.use_dithering=2
