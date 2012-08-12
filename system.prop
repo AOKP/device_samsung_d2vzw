@@ -102,3 +102,9 @@ ro.cwm.enable_key_repeat=true
 # 0=Disable, 1=fix color banding, 
 # 2=fix color banding+blur effect
 persist.sys.use_dithering=2
+
+# force high end graphics
+gfx.highend_override=yes
+
+#disable adb debug notification
+persist.adb.notify=0
