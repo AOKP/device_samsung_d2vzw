@@ -25,6 +25,9 @@ PRODUCT_PACKAGES := \
    Stk \
    Torch
 
+PRODUCT_COPY_FILES := \
+    device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
+
 # KEXEC-specific options
 PRODUCT_PACKAGES += \
     kexec \
