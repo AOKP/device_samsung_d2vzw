@@ -108,3 +108,10 @@ gfx.highend_override=yes
 
 #disable adb debug notification
 persist.adb.notify=0
+
+# hardware info
+ro.device.cpu=1.5 GHz dual-core Qualcomm Snapdragon S4 MSM8960	
+ro.device.gpu=Qualcomm Adreno 225
+ro.device.rear_cam=8 MP
+ro.device.front_cam=1.9 MP	
+ro.device.screen_res=720x1280
