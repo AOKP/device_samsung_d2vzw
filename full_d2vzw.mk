@@ -28,13 +28,6 @@ PRODUCT_PACKAGES := \
 PRODUCT_COPY_FILES := \
     device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
 
-# KEXEC-specific options
-PRODUCT_PACKAGES += \
-    kexec \
-    kexec-boot.zip \
-    hijack.sh
-
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from d2vzw device
