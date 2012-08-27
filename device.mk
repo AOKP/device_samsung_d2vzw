@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     $(KT747_DIR)/app/com.ktoonsez.KTweaker.apk:system/app/com.ktoonsez.KTweaker.apk \
     $(KT747_DIR)/etc/init.d/00post-init.sh:system/etc/init.d/00post-init.sh \
     $(KT747_DIR)/etc/init.d/enable-oc.sh:system/etc/init.d/enable-oc.sh \
-    $(KT747_DIR)/lib/modules/ansi-cprng.ko:system/lib/modules/ansi-cprng.ko \
+    $(KT747_DIR)/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     $(KT747_DIR)/lib/modules/btlock.ko:system/lib/modules/btlock.ko \
     $(KT747_DIR)/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
     $(KT747_DIR)/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
