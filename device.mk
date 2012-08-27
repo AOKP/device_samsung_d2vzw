@@ -23,22 +23,22 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
 #KT747 kernel files
 KT747_DIR := device/samsung/d2vzw/prebuilt/KT747
 PRODUCT_COPY_FILES += \
-    $KT747_DIR/app/com.ktoonsez.KTweaker.apk:system/app/com.ktoonsez.KTweaker.apk \
-    $KT747_DIR/etc/init.d/00post-init.sh:system/etc/init.d/00post-init.sh \
-    $KT747_DIR/etc/init.d/enable-oc.sh:system/etc/init.d/enable-oc.sh \
-    $KT747_DIR/lib/modules/ansi-cprng.ko:system/lib/modules/ansi-cprng.ko \
-    $KT747_DIR/lib/modules/btlock.ko:system/lib/modules/btlock.ko \
-    $KT747_DIR/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-    $KT747_DIR/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
-    $KT747_DIR/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    $KT747_DIR/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
-    $KT747_DIR/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-    $KT747_DIR/lib/modules/qce40.ko:system/lib/modules/qce40.ko \
-    $KT747_DIR/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
-    $KT747_DIR/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
-    $KT747_DIR/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
-    $KT747_DIR/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
-    $KT747_DIR/lib/modules/spidev.ko:system/lib/modules/spidev.ko
+    $(KT747_DIR)/app/com.ktoonsez.KTweaker.apk:system/app/com.ktoonsez.KTweaker.apk \
+    $(KT747_DIR)/etc/init.d/00post-init.sh:system/etc/init.d/00post-init.sh \
+    $(KT747_DIR)/etc/init.d/enable-oc.sh:system/etc/init.d/enable-oc.sh \
+    $(KT747_DIR)/lib/modules/ansi-cprng.ko:system/lib/modules/ansi-cprng.ko \
+    $(KT747_DIR)/lib/modules/btlock.ko:system/lib/modules/btlock.ko \
+    $(KT747_DIR)/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
+    $(KT747_DIR)/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+    $(KT747_DIR)/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
+    $(KT747_DIR)/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
+    $(KT747_DIR)/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    $(KT747_DIR)/lib/modules/qce40.ko:system/lib/modules/qce40.ko \
+    $(KT747_DIR)/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
+    $(KT747_DIR)/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+    $(KT747_DIR)/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+    $(KT747_DIR)/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    $(KT747_DIR)/lib/modules/spidev.ko:system/lib/modules/spidev.ko
 
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
