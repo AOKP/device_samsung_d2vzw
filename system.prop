@@ -105,9 +105,6 @@ ro.hdmi.enable=true
 # 2=fix color banding+blur effect
 persist.sys.use_dithering=2
 
-# force high end graphics
-gfx.highend_override=yes
-
 # hardware info
 ro.device.cpu=1.5 GHz dual-core Qualcomm Snapdragon S4 MSM8960	
 ro.device.gpu=Qualcomm Adreno 225
