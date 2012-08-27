@@ -30,12 +30,13 @@
 TARGET_OTA_ASSERT_DEVICE := d2vzw
 
 # Kernel
-TARGET_KERNEL_SOURCE        := kernel/samsung/d2
-TARGET_KERNEL_CONFIG        := KT747_d2vzw_defconfig
-BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31
-BOARD_KERNEL_BASE           := 0x80200000
-BOARD_FORCE_RAMDISK_ADDRESS := 0x81500000
-BOARD_KERNEL_PAGESIZE       := 2048
+#TARGET_KERNEL_SOURCE           := kernel/samsung/d2
+#TARGET_KERNEL_CONFIG           := KT747_d2vzw_defconfig
+TARGET_PREBUILT_KERNEL         := device/samsung/d2vzw/kernel
+BOARD_KERNEL_CMDLINE           := androidboot.hardware=qcom user_debug=31
+BOARD_KERNEL_BASE              := 0x80200000
+BOARD_FORCE_RAMDISK_ADDRESS    := 0x81500000
+BOARD_KERNEL_PAGESIZE          := 2048
 TARGET_KERNEL_LINARO_TOOLCHAIN := linaro-4.7
 
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -47,4 +48,3 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Boot Animation
 TARGET_BOOTANIMATION_USE_RGB565 := true
-
