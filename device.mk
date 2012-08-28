@@ -21,11 +21,11 @@ $(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
 
 #KT747 kernel files
-KT747_DIR := device/samsung/d2vzw/prebuilt/KT747
+KT747_DIR := kernel/samsung/d2
 PRODUCT_COPY_FILES += \
-    $(KT747_DIR)/app/com.ktoonsez.KTweaker.apk:system/app/com.ktoonsez.KTweaker.apk \
-    $(KT747_DIR)/etc/init.d/00post-init.sh:system/etc/init.d/00post-init.sh \
-    $(KT747_DIR)/etc/init.d/enable-oc.sh:system/etc/init.d/enable-oc.sh 
+    $(KT747_DIR)/com.ktoonsez.KTweaker.apk:system/app/com.ktoonsez.KTweaker.apk \
+    $(KT747_DIR)/0post-init.sh:system/etc/init.d/00post-init.sh \
+    $(KT747_DIR)/enable-oc.sh:system/etc/init.d/enable-oc.sh 
   
 
 # Inherit from d2-common
