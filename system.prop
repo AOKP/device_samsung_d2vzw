@@ -68,19 +68,20 @@ ro.sf.lcd_density=320
 #system prop for switching gps driver to qmi
 persist.gps.qmienabled=true
 
-
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
 ro.telephony.ril_class=SamsungCDMAQualcommRIL
 ro.cdma.home.operator.numeric=310004
 ro.cdma.home.operator.alpha=Verizon
-ro.cdma.subscribeOnRuimReady=true
+ro.cdma.subscribe_on_ruim_ready=true
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
-ro.config.svlte1x=true
+keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 ro.ril.gprsclass=10
 ro.ril.hsxpa=1
+ro.config.svlte1x=true
+ro.config.qc_lte_network_modes=true
 
 # Default ecclist
 ro.ril.ecclist=112,911,#911,*911
@@ -99,14 +100,8 @@ com.qc.hardware=true
 com.qc.hdmi_out=true
 ro.hdmi.enable=true
 
-
-# Surface Dithering
-# 0=Disable, 1=fix color banding, 
-# 2=fix color banding+blur effect
-persist.sys.use_dithering=2
-
 # hardware info
-ro.device.cpu=1.5 GHz dual-core Qualcomm Snapdragon S4 MSM8960	
+ro.device.cpu=1.5 GHz Qualcomm Snapdragon S4 MSM8960	
 ro.device.gpu=Qualcomm Adreno 225
 ro.device.rear_cam=8 MP
 ro.device.front_cam=1.9 MP	

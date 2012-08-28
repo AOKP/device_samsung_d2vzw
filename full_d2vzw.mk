@@ -22,8 +22,8 @@
 #
  
 PRODUCT_PACKAGES := \
-   Stk \
-   Torch
+   Gallery \
+   Stk
 
 PRODUCT_COPY_FILES := \
     device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
