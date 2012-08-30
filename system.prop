@@ -3,6 +3,7 @@
 
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
+rild.libargs=-d /dev/smd0
 ro.telephony.ril_class=SamsungCDMAQualcommRIL
 ro.cdma.home.operator.numeric=310004
 ro.cdma.home.operator.alpha=Verizon
@@ -13,9 +14,7 @@ keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 ro.config.svlte1x=true
 ro.config.qc_lte_network_modes=true
-
-# Default ecclist
-ro.ril.ecclist=112,911,#911,*911
+persist.radio.no_wait_for_card=1
 
 # hardware info
 ro.device.cpu=1.5 GHz Qualcomm Snapdragon S4 MSM8960	
