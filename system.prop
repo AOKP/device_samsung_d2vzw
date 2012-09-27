@@ -16,6 +16,9 @@ ro.config.svlte1x=true
 ro.config.qc_lte_network_modes=true
 persist.radio.no_wait_for_card=1
 
+# Volume for 7 step audio
+ro.config.vc_call_vol_steps=7
+
 # hardware info
 ro.device.cpu=1.5 GHz Qualcomm Snapdragon S4 MSM8960	
 ro.device.gpu=Qualcomm Adreno 225
