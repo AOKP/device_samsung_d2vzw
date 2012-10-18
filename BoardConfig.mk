@@ -31,6 +31,3 @@ TARGET_OTA_ASSERT_DEVICE := d2vzw
 
 # Kernel
 TARGET_KERNEL_CONFIG           := cyanogen_d2vzw_defconfig
-
-# Boot Animation
-TARGET_BOOTANIMATION_USE_RGB565 := true
