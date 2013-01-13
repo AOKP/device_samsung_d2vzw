@@ -20,7 +20,8 @@ persist.radio.no_wait_for_card=1
 ro.config.vc_call_vol_steps=7
 
 # hardware info
-ro.device.cpu=1.5 GHz Qualcomm Snapdragon S4 MSM8960	
+ro.device.chipset=Qualcomm Snapdragon S4 MSM8960
+ro.device.cpu=1.5 GHz dual-core Krait	
 ro.device.gpu=Qualcomm Adreno 225
 ro.device.rear_cam=8 MP
 ro.device.front_cam=1.9 MP	
