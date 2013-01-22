@@ -30,4 +30,4 @@
 TARGET_OTA_ASSERT_DEVICE := d2vzw
 
 # Kernel
-TARGET_KERNEL_CONFIG           := cyanogen_d2vzw_defconfig
+TARGET_KERNEL_CONFIG           := aokp_d2vzw_defconfig
