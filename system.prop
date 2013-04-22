@@ -14,7 +14,13 @@ keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 ro.config.svlte1x=true
 ro.config.qc_lte_network_modes=true
-persist.radio.no_wait_for_card=1
+persist.radio.no_wait_for_card=0
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+ro.config.multimode_cdma=1
+ro.config.combined_signal=true
+ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,900000
+persist.eons.enabled=false
 
 # Volume for 7 step audio
 ro.config.vc_call_vol_steps=7
